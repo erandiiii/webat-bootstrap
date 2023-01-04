@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+.divider{
+    background-color: #eee;
+}
+
+#intro {
+    
+    background-image: url('/img/asdss.avif');
+    height: 400px;
+  
+}
+
+@media (min-width: 576px){
+    #intro{
+        height: 600px;
+    }
+}
+
+#book{
+    background-image: url('../img/table.jpg');
+    height: 300px;
+    background-size: cover;
+}
